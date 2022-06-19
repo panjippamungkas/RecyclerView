@@ -36,6 +36,7 @@ class AdapterTimBola (private val Context : Context,
         var nama = binding.txtnama
 
     }
+
     interface OnClickListener {
         fun  detailData(item : Pemain?)
 
